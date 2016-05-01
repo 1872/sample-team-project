@@ -2,6 +2,8 @@ Rails.application.routes.draw do
   get '/' => 'products#index'
   
   get '/products' => 'products#index'
+
+  get '/carolyns' => 'carolyns#index'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
